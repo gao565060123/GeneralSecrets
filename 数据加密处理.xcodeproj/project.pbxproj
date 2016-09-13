@@ -75,7 +75,6 @@
 		F86CBB931D878B850055121D /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		F86CBB941D878B850055121D /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		F86CBB951D878B850055121D /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		F86CBB971D878B850055121D /* TaiHeToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaiHeToolKit.h; sourceTree = "<group>"; };
 		F86CBB991D878B850055121D /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
 		F86CBB9A1D878B850055121D /* MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5.m; sourceTree = "<group>"; };
 		F86CBB9C1D878B850055121D /* NSString+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
@@ -92,6 +91,7 @@
 		F86CBBAC1D878B850055121D /* ThreeDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDES.m; sourceTree = "<group>"; };
 		F86CBBAE1D878B850055121D /* TimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUtil.h; sourceTree = "<group>"; };
 		F86CBBAF1D878B850055121D /* TimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUtil.m; sourceTree = "<group>"; };
+		F86CBBBE1D8793480055121D /* GeneralSecretFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralSecretFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,7 +244,7 @@
 		F86CBB961D878B850055121D /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				F86CBB971D878B850055121D /* TaiHeToolKit.h */,
+				F86CBBBE1D8793480055121D /* GeneralSecretFramework.h */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -690,6 +690,7 @@
 				F86CBB7F1D878B380055121D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F86CBB801D878B380055121D /* Build configuration list for PBXNativeTarget "数据加密处理Tests" */ = {
 			isa = XCConfigurationList;
@@ -698,6 +699,7 @@
 				F86CBB821D878B380055121D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F86CBB831D878B380055121D /* Build configuration list for PBXNativeTarget "数据加密处理UITests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +708,7 @@
 				F86CBB851D878B380055121D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

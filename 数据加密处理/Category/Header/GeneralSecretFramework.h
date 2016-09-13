@@ -1,10 +1,13 @@
 //
-//  TaiHeToolKit.h
+//  GeneralSecretFramework.h
 //  数据加密处理
 //
 //  Created by mybook on 16/9/13.
 //  Copyright © 2016年 石塔Mr.GC. All rights reserved.
 //
+
+#ifndef GeneralSecretFramework_h
+#define GeneralSecretFramework_h
 
 #import <Foundation/Foundation.h>
 
@@ -21,3 +24,5 @@
 #import "NSData+AES.h"
 #import "NSString+JSON.h"
 #import "THDeviceInfo.h"
+
+#endif /* GeneralSecretFramework_h */
